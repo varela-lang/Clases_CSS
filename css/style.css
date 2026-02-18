@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item{
+    background-color: blue;
+    margin: 25px;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: auto;
+}
